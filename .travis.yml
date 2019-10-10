@@ -2,4 +2,4 @@ install:
     - git clone --single-branch -b vim-vue-plugin --depth=1 https://github.com/leafOfTree/test ../test
 
 script:
-    - bash test/src/test.sh
+    - bash ../test/src/test.sh
